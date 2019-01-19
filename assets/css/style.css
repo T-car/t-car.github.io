@@ -73,6 +73,42 @@ nav ul li a {
   border-color: grey;
 }
 
+/*Footer Style*/
+footer {
+  background: grey;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  padding: 30px;
+  border-top: 5px solid teal;
+
+}
+
+/*Form Style*/
+form label {
+  font-size: 15px;
+  display: block;
+}
+
+form input {
+  display: block;
+  width: 300px;
+  margin: 20px 0px 20px 0px;
+  border: 2px solid grey;
+}
+
+textarea {
+  height: 300px;
+}
+
+form button {
+  background: teal;
+  color: white;
+  font-size: 18;
+  margin: 20px 0px 20px 0px;
+  padding: 10px;
+}
+
 /*Position content*/
 .wrapper {
   width: 960px;
