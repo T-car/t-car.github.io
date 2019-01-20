@@ -108,55 +108,65 @@ form button {
   margin: 20px 0px 20px 0px;
   padding: 10px;
 }
+/*Form Style*/
+#Form {
+  background: white;
+  padding: 15px;
+  display: block;
+  line-height: 2;
+  width: 960px;
+}
 
 /*Portfolio layout*/
 .portfolio-content {
   position: relative;
   background-color: teal;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   width: 45%;
   float: left;
-  height: 100px;
+  height: 200px;
  
 }
 
+/*portfolio text stye*/
 .portfolio-content h4 {
   background: teal;
   color: white;
   text-align: center;
-  padding: 15px;
+  padding: 5px;
   position: absolute;
-  bottom: 15px;
+  bottom: 5px;
   width: 100%;
   
 }
 
+/*Portfolio images*/
 #portfolio1 {
-  background: url(../images/Portfolio_Pic.png);
+  background: url(../images/Portfolio_Pic.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #portfolio2 {
-  background: url(../images/Portfolio_Pic.png);
+  background: url(../images/Portfolio_pic2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #portfolio3 {
-  background: url(../images/Portfolio_Pic.png);
+  background: url(../images/portfolio_pic3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #portfolio4 {
-  background: url(../images/Portfolio_Pic.png);
+  background: url(../images/portfolio_pic4.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #portfolio5 {
-  background: url(../images/Portfolio_Pic.png);
+  background: url(../images/portfolio_pic5.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -166,6 +176,14 @@ form button {
   float: right;
 }
 
+/*Porfolio Style*/
+#port{
+  background: white;
+  padding: 15px;
+  display: inline-block;
+  line-height: 2;
+  width: 960px;
+}
 
 /*Position content*/
 .wrapper {
@@ -173,3 +191,12 @@ form button {
   margin: 0 auto;
 }
 
+/*increase form box size*/
+.small-input-field {
+  width: 250px;
+}
+
+.large-input-field {
+  width: 150px;
+  height: 150px; 
+}
